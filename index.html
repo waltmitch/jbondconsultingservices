@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>John E Bond Sr Consulting - jbondconsultingservices.com</title>
+  <link rel="stylesheet" href="styles2.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9c1e10005d.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <div class="brand">
+            <h1>John E Bond Sr</h1>
+          </div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="home">
+        <div class="hero">
+          <div class="hero-content">
+            <h1>John Bond Sr Consulting</h1>
+            <p>The best way to get a project done faster is to start sooner</p>
+            <a href="#about" class="cta-button">Learn More</a>
+          </div>
+          <div class="scroll-indicator">
+            <span></span>
+          </div>
+        </div>
+      </section>      
+
+  <section id="about">
+    <div class="container">
+       <h2>Meet John</h2>
+        <p class="subtext">Senior Project Manager / Construction Manager</p>
+        <p class="subtext">35 years of experience</p>
+      <div class="about-content">
+        <div class="text about-element">
+            <p>
+              Mr. Bond is a senior project manager with more than 35 years of experience
+              overseeing all phases of multimillion-dollar construction, infrastructure,
+              Superfund, and environmental projects for government and private-sector
+              clients. He is skilled in managing crews on complex projects with
+              construction budgets ranging from $1.5 million to more than $75 million,
+              with extensive engagement from state and city officials as well as
+              neighborhood associations. Adept at bidding procurement, Mr. Bond is also
+              knowledgeable in handling the award process and monitoring contractural
+              adherence during the contstruction phase, including for federally funded
+              programs such as the HUD initiative HOPE VI. Mr. Bond has a track record
+              of delivering projects on time and under budget. 
+           </p>
+           <div class="linkedin-container">
+            <p>Let's connect on LinkedIn!</p>
+            <a href="https://www.linkedin.com/in/john-e-bond-sr-79831148/" target="_blank" class="linkedin-btn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+           </div>
+        </div>
+        <div class="about-image about-element">
+            <div class="background-box"></div>
+            <img src="images/jeb.jpg" alt="Placeholder About Image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>What I Specialize In</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <i class="fa-solid fa-person-digging fa-fade fa-4x" style="--fa-animation-duration: 2s;"></i>
+          <h3>Construction</h3>
+        </div>
+        <div class="service-item">
+          <i class="fa-solid fa-house fa-fade fa-4x" style="--fa-animation-duration: 2s;"></i>
+          <h3>Multi-Family Housing</h3>
+        </div>
+        <div class="service-item">
+          <i class="fa-solid fa-file-contract fa-fade fa-4x" style="--fa-animation-duration: 2s;"></i>
+          <h3>Government Contracts</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+    <h2 class="text-center">Experience</h2>
+      <div class="experience-grid">
+        <div class="experience-item">
+          <h3>Project Experience</h3>
+          <ul>
+            <li>City of Camden Neighborhood Improvements - Senior Project Manager</li>
+            <li>W.T. Grants Complex Demolition - Project Manager</li>
+          </ul>
+        </div>
+        <div class="experience-item">
+          <h3>Education</h3>
+          <ul>
+            <li>Camden County College Lincoln Hall Renovations - Senior Project Manager</li>
+            <li>Rutgers University Graduate Student Housing - Project Manager</li>
+          </ul>
+        </div>
+        <div class="experience-item">
+          <h3>Health &amp; Science</h3>
+          <ul>
+            <li>Rowan University Joint Health Sciences Center - Senior Project Manager</li>
+            <li>CMSRU New Facility Construction - Project Manager</li>
+          </ul>
+        </div>
+        <div class="experience-item">
+          <h3>Residential</h3>
+          <ul>
+            <li>Lawnside Meadows Adaptive Reuse - Project Manager</li>
+            <li>Revere Run at Park Place - Project Manager</li>
+            <!-- Add more residential projects as needed -->
+          </ul>
+        </div>
+      </div>
+      <p class="text-center">
+        <a href="files/johnbondresume.pdf" target="_blank" class="resume-link">See full resume</a>
+      </p>
+    </div>
+  </section>
+  
+  
+  <section id="contact">
+    <div class="container">
+      <h2>Shoot me an email! <i class="fa-sharp fa-solid fa-envelope fa-bounce"></i></h2>
+      <form id="contact-form" action="https://formspree.io/f/xvondqgp" method="POST">
+        <!-- form fields -->
+        <input type="hidden" name="_subject" data-value-template="New submission from jbondconsultingservices.com by {name}">
+        <input type="hidden" name="_next" value="https://jbondconsultingservices.com/thank-you.html">
+        <label for="name">Name</label>
+        <input type="text" name="name" required placeholder="Your Name">
+        <label for="email">Email</label>
+        <input type="text" name="_replyto" required placeholder="Your Email">
+        <label for="message">Message</label>
+        <textarea name="message" required placeholder="Your Message"></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 John Bond Sr Consulting. All rights reserved.</p>
+    </div>
+  </footer>
+
+<!-- Scripts -->
+  <!-- Form submission behavior-->
+  <script> 
+    document.getElementById("contact-form").addEventListener("submit", (event) => {
+      const form = event.target;
+      const nameInput = form.querySelector("input[name='name']");
+      const subjectInput = form.querySelector("input[name='_subject']");
+      const subjectTemplate = subjectInput.getAttribute("data-value-template");
+
+      subjectInput.value = subjectTemplate.replace("{name}", nameInput.value);
+    });
+  </script>
+  
+  </body>
+  </html>
+  
