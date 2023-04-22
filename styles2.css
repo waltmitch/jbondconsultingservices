@@ -384,10 +384,6 @@
     background-color: #b4942f;
   }
   
-  
-  
-  
-  /* Contact Section */
   /* Contact Section */
 #contact {
     padding: 50px 0;
@@ -454,6 +450,258 @@
     animation-duration: 3s;
     animation-fill-mode: both;
   }
+  
+  /* medium device media query */
+  @media (max-width: 768px) {
+    /* General styles */
+    body {
+      font-size: 16px;
+    }
+  
+    /* Header and Navigation */
+    header {
+      padding: 0.5rem 0;
+    }
+  
+    .brand h1 {
+      font-size: 1.25rem;
+    }
+  
+    nav ul li {
+      margin-left: 0.5rem;
+    }
+  
+    nav ul li a {
+      padding: 0.25rem;
+    }
+  
+    /* Hero Section */
+    .hero {
+      height: 40vh;
+      font-size: 1.5rem;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    /* About Section */
+    #about {
+      padding: 2rem 0;
+    }
+  
+    #about h2 {
+      font-size: 1.75rem;
+    }
+  
+    .subtext {
+      font-size: 1rem;
+    }
+  
+    .about-content {
+      gap: 1rem;
+    }
+  
+    .about-image {
+      margin-top: 1rem;
+    }
+  
+    .linkedin-button {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    /* Services Section */
+    #services h2 {
+      font-size: 2rem;
+    }
+  
+    .service-item {
+      padding: 1.5rem;
+    }
+  
+    .service-item h3 {
+      font-size: 1.25rem;
+    }
+  
+    .service-item p {
+      font-size: 0.875rem;
+    }
+  
+    /* Experience section */
+    #experience h2 {
+      font-size: 2rem;
+    }
+  
+    .experience-item h3 {
+      font-size: 1.25rem;
+    }
+  
+    .experience-item li {
+      font-size: 0.875rem;
+    }
+  
+    .resume-link {
+      font-size: 0.875rem;
+      padding: 0.25rem 0.5rem;
+    }
+  
+    /* Contact Section */
+    #contact h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    #contact-form input,
+    #contact-form textarea {
+      padding: 8px;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+  
+    #contact-form label {
+      font-size: 1rem;
+      margin-bottom: 3px;
+    }
+  
+    #contact-form button {
+      padding: 8px 16px;
+      font-size: 1rem;
+    }
+  }
+  
+/* Small devices (576px and below) */
+@media (max-width: 576px) {
+
+    /* Header and Navigation */
+    header {
+      height: 60px;
+    }
+  
+    .brand h1 {
+      font-size: 1.2rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      position: fixed;
+      top: 60px;
+      left: -100%;
+      width: 100%;
+      height: calc(100vh - 60px);
+      background-color: #845ec2;
+      padding-top: 20px;
+      text-align: center;
+      transition: all 0.5s ease;
+    }
+  
+    nav ul li {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  
+    nav ul li a {
+      font-size: 1.2rem;
+      padding: 10px;
+    }
+  
+    nav ul.show {
+      left: 0;
+    }
+  
+    .menu-toggle {
+      display: block;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-size: 1.5rem;
+      color: #fff;
+      cursor: pointer;
+      z-index: 999;
+    }
+  
+    /* Hero Section */
+    #home {
+      min-height: 30vh;
+    }
+  
+    .hero {
+      height: 30vh;
+      font-size: 1.5rem;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    /* About Section */
+    .about-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-image {
+      margin-top: 2rem;
+    }
+  
+    /* Services Section */
+    .service-item {
+      padding: 1rem;
+    }
+  
+    .service-item h3 {
+      font-size: 1.2rem;
+    }
+  
+    .service-item p {
+      font-size: 1rem;
+    }
+  
+    /* Experience section */
+    .experience-item {
+      padding: 1rem;
+    }
+  
+    .experience-item h3 {
+      font-size: 1.2rem;
+    }
+  
+    .experience-item li {
+      font-size: 1rem;
+    }
+  
+    .resume-link {
+      font-size: 1rem;
+    }
+  
+    /* Contact Section */
+    #contact-form label {
+      font-size: 1.2rem;
+    }
+  
+    #contact-form input,
+    #contact-form textarea {
+      font-size: 1.2rem;
+    }
+  
+    #contact-form button {
+      font-size: 1.2rem;
+    }
+  
+  }
+  
+
+
   /* Keyframes */
   @keyframes fadeIn {
     from {
